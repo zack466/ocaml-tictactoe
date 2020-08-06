@@ -89,7 +89,7 @@ let rec get_input board =
         get_input board
 
 let play () =
-    print_endline "To make a move, enter the row and column numbers. Ex: '1 1'";
+    print_endline "To make a move, enter the row and column numbers. Ex: '2 2' for middle square";
     let rec loop board ch turn =
         print_board board;
         let r,c = get_input board in
